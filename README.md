@@ -1,38 +1,13 @@
-<p align="center"><img src="https://i.imgur.com/X7dSE68.png"></p>
+# 설계
+## puppeteer 이용하기(크롤링)
 
-## Usage
-
-### Create an App
-
-```
-# with npx
-$ npx create-nextron-app my-app --example with-javascript
-
-# with yarn
-$ yarn create nextron-app my-app --example with-javascript
-
-# with pnpx
-$ pnpx create-nextron-app my-app --example with-javascript
-```
-
-### Install Dependencies
-
-```
-$ cd my-app
-
-# using yarn or npm
-$ yarn (or `npm install`)
-
-# using pnpm
-$ pnpm install --shamefully-hoist
-```
-
-### Use it
-
-```
-# development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
-
-# production build
-$ yarn build (or `npm run build` or `pnpm run build`)
-```
+### 각 마켓에 대한 커스텀 훅 만들기
+- 11번가
+  - 상품 조회 
+  데이터 형태 
+  {
+    title: string,
+    price: string,
+    delivery: string,
+    link: string,
+  }
